@@ -8,4 +8,6 @@ COPY . .
 
 RUN npm ci
 
+CMD ["npx", "playwright", "install"]
+
 CMD ["npm", "run", "start"]
